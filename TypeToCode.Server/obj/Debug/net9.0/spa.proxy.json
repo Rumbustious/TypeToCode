@@ -1,0 +1,10 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "https://localhost:55112",
+"RedirectUrl": "",
+"LaunchCommand": "npm start",
+"WorkingDirectory": "E:\\dotNet\\vs_projects\\TypeToCode\\TypeToCode.Server\\..\\typetocode.client",
+"MaxTimeoutInSeconds": "120",
+"KeepRunning": "false"
+}
+}

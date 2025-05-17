@@ -1,0 +1,6 @@
+@TypeToCode.Server_HostAddress = http://localhost:5190
+
+GET {{TypeToCode.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
