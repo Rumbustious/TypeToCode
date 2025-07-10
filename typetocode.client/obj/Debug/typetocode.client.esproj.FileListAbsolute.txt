@@ -1,1 +1,0 @@
-E:\dotNet\vs_projects\TypeToCode\typetocode.client\obj\Debug\typetocode.client.esproj.CoreCompileInputs.cache

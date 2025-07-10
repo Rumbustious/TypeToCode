@@ -2,22 +2,19 @@ import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { RegisterationComponent } from './user/registeration/registeration.component';
-import { LoginComponent } from './user/login/login.component';
-import { RegisterComponent } from './user/register/register.component';
+import { LoginComponent } from './auth/login/login.component';
+import { RegisterComponent } from './auth/register/register.component';
+import { RoutesModule } from './routes.module';
 
 @NgModule({
   declarations: [
     AppComponent,
-    RegisterationComponent,
     LoginComponent,
     RegisterComponent
   ],
   imports: [
-    BrowserModule, HttpClientModule,
-    AppRoutingModule
+    BrowserModule, HttpClientModule, RoutesModule
   ],
   providers: [],
   bootstrap: [AppComponent]

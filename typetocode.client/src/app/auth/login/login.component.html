@@ -1,1 +1,18 @@
-<p>login works!</p>
+<form action="">
+    <div class="form-group">
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" class="form-control" required>
+    </div>
+    <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" class="form-control" required>
+    </div>
+    <div class="external-auth">
+        <p>Or sign in with:</p>
+        <button type="button">Google</button>
+        <button type="button">GitHub</button>
+    </div>
+    <div>
+        <p>Don't have an account? <a routerLink="/register">Register here</a></p>
+    </div>
+</form>

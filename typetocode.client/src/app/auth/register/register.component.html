@@ -1,1 +1,30 @@
-<p>register works!</p>
+<form action="">
+    <h1>Create an Account</h1>
+
+    <div class="form-group">
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" class="form-control" required>
+    </div>
+    <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" class="form-control" required>
+    </div>
+    <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" class="form-control" required>
+    </div>
+    <div class="form-group">
+        <label for="confirmPassword">Confirm Password</label>
+        <input type="password" id="confirmPassword" name="confirmPassword" class="form-control" required>
+    </div>
+    <div class="external-auth">
+        <p>Or sign in with:</p>
+        <button type="button">Google</button>
+        <button type="button">GitHub</button>
+    </div>
+    <div>
+        <p>Already have an account? <a routerLink="/login">Login here</a></p>
+    </div>
+
+    <button type="submit">Register</button>
+</form>
